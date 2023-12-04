@@ -1,0 +1,14 @@
+INDEX VERSION 1.134+C:\Users\joaov\OneDrive\Área de Trabalho\eclipse_projects\05 - PSC - Prática - Java - For\.metadata\.plugins\org.eclipse.jdt.core
+914668478.index
+837386151.index
+1190022961.index
+2788927023.index
+2986024796.index
+1099139880.index
+3338416074.index
+2945313284.index
+1865797976.index
+3632978578.index
+3510408889.index
+2833264157.index
+686968550.index

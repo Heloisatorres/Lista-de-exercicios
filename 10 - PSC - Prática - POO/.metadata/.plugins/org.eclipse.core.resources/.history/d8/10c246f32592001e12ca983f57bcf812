@@ -1,0 +1,13 @@
+package exercicio;
+
+public class PessoaFisica {
+	private String cpf, modelo, cor, numeroChassi, placa;
+
+	public PessoaFisica(String cpf) {
+		this.cpf = cpf;
+		
+	}
+
+
+
+}

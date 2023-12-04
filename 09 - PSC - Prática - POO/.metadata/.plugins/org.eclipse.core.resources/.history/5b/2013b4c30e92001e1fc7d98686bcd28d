@@ -1,0 +1,15 @@
+package lista09_ex01;
+
+public class Cadastro {
+
+
+public void cadastrarFuncionarios(int n) {
+	Funcionario funcionario[] = new Funcionario[n];
+	
+	for (int i = 0; i < n; i++) {
+		
+	}
+	
+}
+
+}

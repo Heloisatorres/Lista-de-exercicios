@@ -1,0 +1,14 @@
+package lista06_ex01;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void mains(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int vetor [] = new int[10];
+		
+		for (int i = 0; i < 10; i++) {
+			vetor[i] = teclado.nextInt();
+		}
+	}
+}

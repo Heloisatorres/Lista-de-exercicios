@@ -1,0 +1,18 @@
+package lista09_ex01;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+
+        // Creating an instance of the class "FuncionarioApp"
+        Cadastro cadastro= new Cadastro();
+
+        // Calling the method "cadastrarFuncionarios"
+        cadastro.cadastrarFuncionarios("João", "Engenheiro", "Rua A", 3000, 987654321);
+        cadastro.cadastrarFuncionarios("Maria", "Diretora", "Rua B", 5000, 987654322);
+
+        // Calling the method "imprimirFuncionarios"
+        cadastro.imprimirFuncionarios();
+	}
+}

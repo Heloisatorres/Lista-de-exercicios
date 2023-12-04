@@ -1,0 +1,23 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		int idade, total = 0;
+		String sexo;
+		Scanner t = new Scanner(System.in);
+
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Idade");
+			idade = t.nextInt();
+			System.out.println("Sexo");
+			sexo = t.next();
+			if (sexo.equalsIgnoreCase("f") && idade <= 40 && idade >= 20) {
+				total++;
+			}
+		}
+		System.out.println("total " + total);
+		t.close();
+	}
+}

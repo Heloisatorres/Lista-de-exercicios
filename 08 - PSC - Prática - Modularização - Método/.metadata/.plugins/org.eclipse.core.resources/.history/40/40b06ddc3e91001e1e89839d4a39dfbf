@@ -1,0 +1,20 @@
+package lista08_ex02;
+
+public class Soma {
+
+	float total = 0;
+	String continuar;
+
+	public void soma(float n,boolean c) {
+		System.out.println("Deseja adicionar um valor?(S/N)");
+		if(this.continuar.equalsIgnoreCase("N")){
+			c = false;			
+		}else {c=true;}
+		
+		while(c) {total += n;
+		System.out.println("total R$ " + total);}
+		
+		System.out.println("total R$ " + total);
+	}
+
+}

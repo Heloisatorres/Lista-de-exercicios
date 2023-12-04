@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\joaov\OneDrive\Área de Trabalho\eclipse_projects\16 - PSC - Prática - Pesquisa Sequencial e Binária\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3932811491.index
+2641281141.index
+2281920263.index

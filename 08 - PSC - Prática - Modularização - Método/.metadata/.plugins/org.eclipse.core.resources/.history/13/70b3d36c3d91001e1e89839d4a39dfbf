@@ -1,0 +1,19 @@
+package lista08_ex02;
+
+public class Soma {
+	
+	float total = 0;
+	String continuar;
+	
+	public void soma(float n) {
+		System.out.println();
+		while()
+		total += n;
+		System.out.println("R$ " + total);
+		
+		
+		System.out.println("R$ " + total);
+	}
+	
+	
+}

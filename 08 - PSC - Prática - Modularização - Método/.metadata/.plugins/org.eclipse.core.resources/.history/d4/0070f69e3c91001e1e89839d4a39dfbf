@@ -1,0 +1,13 @@
+package lista08_ex02;
+
+public class Lista08_ex02 {
+
+	public static void main(String[] args) {
+		Soma s =  new Soma();
+		
+		s.soma(0);
+		
+System.out.println(s.soma(12));
+	}
+
+}

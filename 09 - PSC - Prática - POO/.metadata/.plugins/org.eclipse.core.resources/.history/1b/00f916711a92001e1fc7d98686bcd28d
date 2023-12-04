@@ -1,0 +1,18 @@
+package lista09_ex01;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+
+        
+        Cadastro cadastro= new Cadastro();
+
+        cadastro.addFuncionario("Heloisa", "programadora", "Rua são paulo", 5000, 987654322);
+        cadastro.addFuncionario("João", "Engenheiro", "Rua barão", 3000, 987654321);
+        
+
+    
+        cadastro.imprimirFuncionarios();
+	}
+}

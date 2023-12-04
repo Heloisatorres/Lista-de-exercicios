@@ -1,0 +1,87 @@
+package exercicio;
+
+public class Pessoa {
+	class Pessoa {
+	    private String nome;
+
+	    public Pessoa(String nome) {
+	        this.nome = nome;
+	    }
+
+	    public String getNome() {
+	        return nome;
+	    }
+
+	    public void setNome(String nome) {
+	        this.nome = nome;
+	    }
+	}
+
+	class PessoaFisica extends Pessoa {
+	    private String cpf;
+
+	    public PessoaFisica(String nome, String cpf) {
+	        super(nome);
+	        this.cpf = cpf;
+	    }
+
+	    public String getCPF() {
+	        return cpf;
+	    }
+
+	    public void setCPF(String cpf) {
+	        this.cpf = cpf;
+	    }
+	}
+
+	class PessoaJuridica extends Pessoa {
+	    private String cnpj;
+
+	    public PessoaJuridica(String nome, String cnpj) {
+	        super(nome);
+	        this.cnpj = cnpj;
+	    }
+
+	    public String getCNPJ() {
+	        return cnpj;
+	    }
+
+	    public void setCNPJ(String cnpj) {
+	        this.cnpj = cnpj;
+	    }
+	}
+
+	class Cadastro {
+	    private static final int MAX_PESSOAS = 100;
+	    private Pessoa[] pessoas;
+	    private int totalPessoas;
+
+	    public Cadastro() {
+	        pessoas = new Pessoa[MAX_PESSOAS];
+	        totalPessoas = 0;
+	    }
+
+	    public void cadastrarPessoa(Pessoa pessoa) {
+	        if (totalPessoas < MAX_PESSOAS) {
+	            pessoas[totalPessoas++] = pessoa;
+	            System.out.println("Pessoa cadastrada com sucesso!");
+	        } else {
+	            System.out.println("Limite de cadastros atingido!");
+	        }
+	    }
+
+	    public void imprimirCadastro() {
+	        System.out.println("\n=== Cadastro de Pessoas ===");
+	        for (int i = 0; i < totalPessoas; i++) {
+	            System.out.println("Nome: " + pessoas[i].getNome());
+	            if (pessoas[i] instanceof PessoaFisica) {
+	                System.out.println("CPF: " + ((PessoaFisica) pessoas[i]).getCPF());
+	            } else if (pessoas[i] instanceof PessoaJuridica) {
+	                System.out.println("CNPJ: " + ((PessoaJuridica) pessoas[i]).getCNPJ());
+	            }
+	            System.out.println("------------------------");
+	        }
+	    }
+	}
+
+}

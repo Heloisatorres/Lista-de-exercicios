@@ -1,0 +1,12 @@
+package lista08_ex02;
+
+public class Soma {
+	
+	int total = 0;
+	
+	public void soma(int n) {
+		total += n;
+	}
+	
+	
+}

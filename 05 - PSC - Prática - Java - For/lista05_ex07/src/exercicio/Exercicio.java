@@ -1,0 +1,23 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		int maior = 0, menor =999999999 , numero;
+		Scanner t = new Scanner(System.in);
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.println("digite o numero " + (i + 1));
+			numero = t.nextInt();
+			if (numero > maior) {
+				maior = numero;
+			}
+			if (numero < menor) {
+				menor = numero;
+			}
+		}
+		System.out.println("maior: " + maior + " menor: " + menor);
+		t.close();
+	}
+}

@@ -1,0 +1,17 @@
+package lista09_ex01;
+
+public class Cadastro {
+
+	public void cadastrarFuncionarios(int n, String nome, String cargo, String endereco, float salario, int telefone) {
+		Funcionario funcionario[] = new Funcionario[n];
+
+		for (int i = 0; i < n; i++) {
+			funcionario[i] = new Funcionario(nome, cargo, endereco, salario, telefone);
+		}
+
+	}
+
+	public void imprimirFuncionarios() {
+		
+	}
+}

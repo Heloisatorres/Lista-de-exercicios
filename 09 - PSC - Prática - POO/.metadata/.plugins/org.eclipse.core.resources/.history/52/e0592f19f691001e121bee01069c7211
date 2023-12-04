@@ -1,0 +1,5 @@
+package lista09_ex01;
+
+public class Cadastro {
+Funcionario funcionario[] = new Funcionario[4];
+}

@@ -1,0 +1,20 @@
+package exercicios;
+public class DivisaoUtil {
+
+    public static void dividir(int numerador, int denominador) throws ArithmeticException {
+        // Verifica se o denominador é zero
+        if (denominador == 0) {
+            throw new ArithmeticException("Não é possível dividir por zero.");
+        }
+
+        // Verifica se o dividendo é menor que 0
+        if (numerador < 0) {
+            throw new ArithmeticException("O dividendo não pode ser menor que zero.");
+        }
+
+        // Realiza a divisão
+        int resultado = numerador / denominador;
+
+        System.out.println("Resultado da divisão: " + resultado);
+    }
+}

@@ -1,0 +1,23 @@
+package lista08_ex02;
+
+import java.util.Scanner;
+
+public class Lista08_ex02 {
+
+	public static void main(String[] args) {
+		Soma s = new Soma();
+		Scanner t = new Scanner(System.in);
+		String continuar = t.next();
+
+		System.out.println("Deseja somar mais um valor?");
+		while (continuar.equalsIgnoreCase(continuar)) {
+			s.soma(t.nextFloat());
+			System.out.println("Deseja somar mais um valor?");
+			 continuar = t.next();
+		}
+		System.out.println(s.soma(0));
+
+		t.close();
+	}
+
+}

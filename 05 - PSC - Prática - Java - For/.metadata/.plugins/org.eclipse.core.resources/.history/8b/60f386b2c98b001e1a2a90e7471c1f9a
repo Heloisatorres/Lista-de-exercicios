@@ -1,0 +1,24 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		int idades = 0, maior = 0, menor =999999999 , tamanho, numero;
+		Scanner t = new Scanner(System.in);
+		System.out.println("Digite a quantidade de numeros que serao inseridas");
+		tamanho = t.nextInt();
+
+		for (int i = 0; i < tamanho; i++) {
+			System.out.println("digite o numero" + (i + 1));
+			numero = t.nextInt();
+			if (numero > maior) {
+				maior = numero;
+			}
+			if (numero < menor) {
+				menor = numero;
+			}
+		}
+		System.out.println("maior: " + maior + "menor: " + menor);
+	}
+}

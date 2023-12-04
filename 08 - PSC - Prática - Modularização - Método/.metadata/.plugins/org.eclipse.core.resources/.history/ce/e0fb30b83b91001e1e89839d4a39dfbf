@@ -1,0 +1,15 @@
+package lista08_ex02;
+
+public class Soma {
+	
+	int precos = 0;
+	
+	public void soma(int n) {
+		
+		
+		
+		
+	}
+	
+	
+}

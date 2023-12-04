@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lista09_ex01.ContaCorrente&apos; to &apos;Retangulo&apos;&#x0D;&#x0A;- Original project: &apos;lista09_ex02&apos;&#x0D;&#x0A;- Original element: &apos;lista09_ex01.ContaCorrente&apos;&#x0D;&#x0A;- Renamed element: &apos;lista09_ex01.Retangulo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ContaCorrente&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;lista09_ex01{ContaCorrente.java[ContaCorrente" matchStrategy="1" name="Retangulo" qualified="false" references="true" similarDeclarations="false" stamp="1701616364935" textual="false" version="1.0"/>
+</session>

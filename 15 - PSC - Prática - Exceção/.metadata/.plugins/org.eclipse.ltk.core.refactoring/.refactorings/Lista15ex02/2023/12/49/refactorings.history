@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;exercicios.DivisaoInteiros.java&apos; to &apos;DivisaoUtil.java&apos;&#x0D;&#x0A;- Original project: &apos;Lista15ex02&apos;&#x0D;&#x0A;- Original element: &apos;exercicios.DivisaoInteiros.java&apos;&#x0D;&#x0A;- Renamed element: &apos;exercicios.DivisaoUtil.java&apos;" description="Rename compilation unit &apos;DivisaoInteiros.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;exercicios{DivisaoInteiros.java" name="DivisaoUtil.java" references="false" stamp="1701654531230" version="1.0"/>
+</session>

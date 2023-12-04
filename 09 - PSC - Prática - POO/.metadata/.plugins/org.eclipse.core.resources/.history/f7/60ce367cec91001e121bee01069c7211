@@ -1,0 +1,20 @@
+package lista09_ex01;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		int numeroAgencia,numeroConta;
+		Scanner t = new Scanner(System.in);
+		ContaCorrente contaCorrente;
+		contaCorrente = new ContaCorrente();
+		System.out.println("Informe o numero da agencia");
+		numeroAgencia = t.nextInt();
+		
+		
+		contaCorrente.iniciarContaCorrente(1, 1);
+
+		contaCorrente.exibe();
+
+	}
+}

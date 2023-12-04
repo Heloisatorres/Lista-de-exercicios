@@ -1,0 +1,55 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+		Inteiro inteiro = new Inteiro();
+		Scanner scanner = new Scanner(System.in);
+		int opcao;
+		do {
+			System.out.println("Escolha uma opção:");
+			System.out.println("1 – Multiplicação.");
+			System.out.println("2 – Potência.");
+			System.out.println("3 – Divisão.");
+			System.out.println("4 – Par.");
+			System.out.println("5 – Sair.");
+			opcao = scanner.nextInt();
+			switch (opcao) {
+			case 1:
+				System.out.println("Digite o primeiro valor:");
+				int a = scanner.nextInt();
+				System.out.println("Digite o segundo valor:");
+				int b = scanner.nextInt();
+				System.out.println("Resultado: " + inteiro.multiplicacao(a, b));
+				break;
+			case 2:
+				System.out.println("Digite o primeiro valor:");
+				a = scanner.nextInt();
+				System.out.println("Digite o segundo valor:");
+				b = scanner.nextInt();
+				System.out.println("Resultado: " + inteiro.potencia(a, b));
+				break;
+			case 3:
+				System.out.println("Digite o primeiro valor:");
+				a = scanner.nextInt();
+				System.out.println("Digite o segundo valor:");
+				b = scanner.nextInt();
+				System.out.println("Resultado: " + inteiro.divisao(a, b));
+				break;
+			case 4:
+				System.out.println("Digite o valor:");
+				a = scanner.nextInt();
+				System.out.println("Resultado: " + (inteiro.par(a) ? "Par" : "Ímpar"));
+				break;
+			case 5:
+				System.out.println("Saindo...");
+				break;
+			default:
+				System.out.println("Opção inválida!");
+			}
+		} while (opcao != 5);
+		scanner.close();
+	}
+}

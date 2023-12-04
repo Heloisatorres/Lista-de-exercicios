@@ -1,0 +1,35 @@
+package lista09_ex01;
+
+public class Retangulo {
+	private float altura, largura;
+	public Retangulo() {
+	altura = 0;
+	largura = 0;
+	}
+	/*retorna o atributo altura*/
+	public float getAltura() {
+	return (altura);
+	}
+	/*define o atributo altura com base no argumento passado*/
+	public void setAltura(float alt) {
+	altura = alt;
+	}
+	public float getLargura() {
+	return (largura);
+	}
+	public void setLargura(float larg) {
+	largura = larg;
+	}
+	public float calculaArea() {
+	return altura * largura;
+	}
+	public float calculaPerimetro() {
+	return 2 * altura + 2 * largura;
+	}
+	public void exibe() {
+		System.out.println("Altura:"+this.altura);
+		System.out.println("Largura:"+this.largura);
+		System.out.println("Area:"+this.calculaArea());
+		System.out.println("Perimetro:"+this.calculaPerimetro());
+	}
+}

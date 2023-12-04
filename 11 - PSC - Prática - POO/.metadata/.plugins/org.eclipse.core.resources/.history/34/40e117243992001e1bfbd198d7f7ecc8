@@ -1,0 +1,53 @@
+package exercicio;
+
+public class Inteiro {
+
+	private static int ultimoId = 0;
+
+	private int id;
+	private String nome;
+	private double preco;
+
+	public Inteiro(String nome, double preco) {
+		this.id = ++ultimoId;
+		this.nome = nome;
+		this.preco = preco;
+	}
+
+	public Inteiro() {
+		this("Nome não informado", 0);
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public static void main(String[] args) {
+		// Example of using the Produto class
+		Inteiro produto1 = new Inteiro("Produto A", 29.99);
+		System.out.println("Produto ID: " + produto1.getId());
+		System.out.println("Nome: " + produto1.getNome());
+		System.out.println("Preço: " + produto1.getPreco());
+
+		Inteiro produto2 = new Inteiro();
+		System.out.println("\nProduto ID: " + produto2.getId());
+		System.out.println("Nome: " + produto2.getNome());
+		System.out.println("Preço: " + produto2.getPreco());
+	}
+}

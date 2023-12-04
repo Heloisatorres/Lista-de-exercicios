@@ -1,0 +1,23 @@
+package lista04_ex02;
+
+import javax.swing.JOptionPane;
+
+public class Lista04_ex01 {
+
+	public static void main(String[] args) {
+		
+		String entrada;
+		int nota, salario, idade;
+		String sexo;
+		
+		do {
+			nota = Integer.parseInt(JOptionPane.showInputDialog("Informe a nota: "));
+
+	if(nota >10||nota<0) {
+		System.out.println("Informe uma nota entre 0 e 10");
+		
+	}
+		
+		}while();
+	
+}}

@@ -1,0 +1,14 @@
+package lista08_ex02;
+
+public class Soma {
+	
+	float total = 0;
+	
+	public void soma(float n) {
+		total += n;
+		
+		System.out.println("R$ " + total);
+	}
+	
+	
+}

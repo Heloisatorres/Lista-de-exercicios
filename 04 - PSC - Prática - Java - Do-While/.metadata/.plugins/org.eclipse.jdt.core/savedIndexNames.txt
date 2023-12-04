@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\joaov\OneDrive\Área de Trabalho\eclipse_projects\04 - PSC - Prática - Java - Do-While\.metadata\.plugins\org.eclipse.jdt.core
+4206210050.index
+2508408684.index
+1865797976.index

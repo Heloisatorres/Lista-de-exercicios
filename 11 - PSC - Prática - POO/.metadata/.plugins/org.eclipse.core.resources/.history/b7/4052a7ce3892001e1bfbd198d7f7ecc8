@@ -1,0 +1,15 @@
+package exercicio;
+
+public class Exercicio {
+	public static void main(String[] args) {
+        Inteiro produto1 = new Inteiro("Smartphone", 1200.0);
+        Inteiro produto2 = new Inteiro("Tablet", 700.0);
+        Inteiro produto3 = new Inteiro();
+        produto3.setNome("Monitor");
+        produto3.setPreco(200.0);
+
+        System.out.println("ID: " + produto1.getId() + ", Nome: " + produto1.getNome() + ", Preço: " + produto1.getPreco());
+        System.out.println("ID: " + produto2.getId() + ", Nome: " + produto2.getNome() + ", Preço: " + produto2.getPreco());
+        System.out.println("ID: " + produto3.getId() + ", Nome: " + produto3.getNome() + ", Preço: " + produto3.getPreco());
+    }
+}

@@ -1,0 +1,28 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		Scanner t = new Scanner(System.in);
+		int masculino = 0, feminino = 0, peso = 0;
+		System.out.print("Sexo ");
+		String sexo = t.next();
+
+		System.out.print("Peso ");
+		peso = t.nextInt();
+
+		for (int i = 0; i <= 10; i++) {
+			if (sexo.equalsIgnoreCase("M") && peso <= 80 && peso >= 60) {
+				masculino++;
+
+			}
+			if (sexo.equalsIgnoreCase("F") && peso <= 50 && peso >= 70) {
+				feminino++;
+
+			}
+
+		}
+
+	}
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\joaov\OneDrive\Área de Trabalho\eclipse_projects\08 - PSC - Prática - Modularização - Método\.metadata\.plugins\org.eclipse.jdt.core
+2373414009.index
+1865797976.index
+1696264553.index

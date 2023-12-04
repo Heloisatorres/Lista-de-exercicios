@@ -1,0 +1,21 @@
+package lista09_ex01;
+
+import java.util.ArrayList;
+
+public class Cadastro {
+	ArrayList<Funcionario> funcionarios;
+
+	public Cadastro() {
+		funcionarios = new ArrayList<>();
+	}
+
+	public void addFuncionario(String nome, String cargo, String endereco, float salario, int telefone) {
+
+		funcionarios.add(new Funcionario(nome, cargo, endereco, salario, telefone));
+
+	}
+
+	public void imprimirFuncionarios() {
+
+	}
+}

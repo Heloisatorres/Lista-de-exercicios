@@ -1,0 +1,54 @@
+package lista04_ex03;
+
+import javax.swing.JOptionPane;
+
+public class Lista04_ex03 {
+
+	public static void main(String[] args) {
+
+		String entrada;
+		int nota, salario, idade;
+		String sexo,continuar;
+do {
+		do {
+			nota = Integer.parseInt(JOptionPane.showInputDialog("Informe a nota: "));
+			if (nota > 10 || nota < 0) {
+				JOptionPane.showMessageDialog(null, "Informe uma nota entre 0 e 10");
+			} else {
+				JOptionPane.showMessageDialog(null, "Nota informada corretamente");
+			}
+
+		} while (nota > 10 || nota < 0);
+
+		do {
+			salario = Integer.parseInt(JOptionPane.showInputDialog("Informe o salario: "));
+			if (salario <= 0) {
+				JOptionPane.showMessageDialog(null, "Informe uma salario maior que zero");
+			} else {
+				JOptionPane.showMessageDialog(null, "Salario informado corretamente");
+			}
+
+		} while (salario <= 0);
+
+		do {
+			sexo = JOptionPane.showInputDialog("Informe o sexo: ").toUpperCase();
+			if (!sexo.equals("M") && !sexo.equals("F")) {
+				JOptionPane.showMessageDialog(null, "Informe o sexo coretamente(m ou f)");
+			} else {
+				JOptionPane.showMessageDialog(null, "sexo informado corretamente");
+			}
+
+		} while (!sexo.equals("M") && !sexo.equals("F"));
+
+		do {
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Informe o idade: "));
+			if (idade < 0 || idade > 120) {
+				JOptionPane.showMessageDialog(null, "Informe uma idade entre 0 e 120");
+			} else {
+				JOptionPane.showMessageDialog(null, "idade informada corretamente");
+			}
+
+		} while (idade < 0 || idade > 120);
+}while(continuar.equalsIgnoreCase("sim"));
+	}
+}

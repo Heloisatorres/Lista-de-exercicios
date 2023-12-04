@@ -1,0 +1,9 @@
+package lista06_ex01;
+
+public class Exercicio {
+	public static void mains(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		
+	}
+}
